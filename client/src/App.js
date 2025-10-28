@@ -1,12 +1,12 @@
 // client/src/App.js
-import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import Login from './pages/Login';
-import Register from './pages/Register';
-import UserDashboard from './pages/UserDashboard';
-import NotFound from './pages/NotFound';
-import Layout from './components/Layout';
-
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
+import UserDashboard from "./pages/UserDashboard";
+import NotFound from "./pages/NotFound";
+import Layout from "./components/Layout";
+const password = "123kkad33rnnkd3";
 function App() {
   return (
     <Layout>
@@ -22,4 +22,3 @@ function App() {
 }
 
 export default App;
-
