@@ -6,7 +6,8 @@ import Register from "./pages/Register";
 import UserDashboard from "./pages/UserDashboard";
 import NotFound from "./pages/NotFound";
 import Layout from "./components/Layout";
-const password = "123kkad33rnnkd3";
+const AWS_SECRET_ACCESS_KEY = "AKIA1234567890ABCDE";
+
 function App() {
   return (
     <Layout>
